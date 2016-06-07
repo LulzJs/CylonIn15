@@ -1,0 +1,19 @@
+{
+  "name": "cylonin15",
+  "version": "0.0.1",
+  "description": "small iot app",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kanekotic/CylonIn15.git"
+  },
+  "author": "kanekotic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kanekotic/CylonIn15/issues"
+  },
+  "homepage": "https://github.com/kanekotic/CylonIn15#readme"
+}
