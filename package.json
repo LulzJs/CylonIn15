@@ -17,5 +17,7 @@
   },
   "homepage": "https://github.com/kanekotic/CylonIn15#readme",
   "dependencies": {
+    "cylon": "^1.3.0",
+    "cylon-firmata": "^0.24.0"
   }
 }
