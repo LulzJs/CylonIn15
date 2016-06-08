@@ -10,6 +10,12 @@ Cylon.robot({
   },
 
   work: function(my) {
-    every((1).second(), my.led.toggle);
+    var socket = require('socket.io-client')('http://localhost:3000');
+    socket.on('chat message', function(msg){
+      if(msg.text == "on")
+        my.led.turnOn();
+      if(msg.text == "off")
+        my.led.turnOff();
+    });
   }
 }).start();
