@@ -6,7 +6,7 @@ Cylon.robot({
   },
 
   devices: {
-    led: { driver: 'led', pin: 13 }
+    led: { driver: 'led', pin: 12 }
   },
 
   work: function(my) {
